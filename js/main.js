@@ -188,9 +188,9 @@
       slidesToShow: 2,
       slidesToScroll: 1,
       prevArrow:
-        "<div class='slick-prev'><i class='im im-arrow-left' aria-hidden='true'></i></div>",
+        "<div class='slick-prev'><i class='fa-solid fa-circle-arrow-left fa-2x text-dark control-slider' aria-hidden='true'></i></div>",
       nextArrow:
-        "<div class='slick-next'><i class='im im-arrow-right' aria-hidden='true'></i></div>",
+        "<div class='slick-next'><i class='fa-solid fa-circle-arrow-right fa-2x text-dark control-slider' aria-hidden='true'></i></div>",
       pauseOnFocus: false,
       autoplaySpeed: 1500,
       responsive: [
@@ -395,3 +395,22 @@
     loop: true,
   });
 })(jQuery);
+
+$(document).ready(function () {
+  let companyLogo = $(".company-logo").length;
+  let counter = 0;
+  setInterval(function () {
+    counter++;
+    $("#companyLogo" + counter).addClass("color");
+    $("#companyLogo" + (counter - 1)).removeClass("color");
+    if (counter == 1) {
+      $("#companyLogo" + companyLogo).removeClass("color");
+    }
+    if (counter == companyLogo) {
+      counter = 0;
+    }
+  }, 600);
+
+  $("#includeStyles").load("include-styles.html");
+  $("#headerInc").load("up.html");
+});
