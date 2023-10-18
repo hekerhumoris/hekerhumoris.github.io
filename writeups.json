@@ -1,32 +1,11 @@
 {
   "writeups": [
     {
-      "slug": "hto79kfyzm9niaNr2kwg9hrV28u9Ho1KFg5WvX73HjT59gOpGt",
-      "title": "ini paling baru tgl 1",
-      "date": "01-01-2024",
-      "writer": "hehehehe",
-      "content": "<p>CAKEP<i>P</i>P<strong>P</strong></p><p><img src=\"https://ik.imagekit.io/hekerhumoris/brand_fragrances.jpg?updatedAt=1697560073754\" style=\"width: 70%; margin: 5px 0px 20px 0px;\"><br></p><ol><li>aa</li><li>adad</li><li>af</li><li>af</li><li>ad</li><li>af</li><li>a</li><li>da</li><li>f</li><li>a</li><li>fa</li></ol><p><br data-cke-filler=\"true\"></p><ul><li>afaf</li><li>af</li><li>af</li><li>a</li><li>da</li><li>f</li><li>af</li><li>a</li><li>fa</li><li>fa</li><li>f</li></ul><p><br data-cke-filler=\"true\"></p><blockquote><p>afadafafa</p><p>fafa</p><p>f</p><p>fa</p><p>fa</p></blockquote>"
-    },
-    {
-      "slug": "wPK13t4kjCEfR6w69pdl35v0K7XEOU6BEy5Puzbz7n1imvL45c",
-      "title": "ini tgl 11",
-      "date": "11-11-2023",
-      "writer": "Rona",
-      "content": "<p>allll</p><p><img src=\"https://ik.imagekit.io/hekerhumoris/brand_fragrances.jpg?updatedAt=1697560073754\" style=\"width: 70%; margin: 5px 0px 20px 0px;\"><br></p>"
-    },
-    {
-      "slug": "WcA8kz0a0gOV0t7Og29ZEl95RZYjAFEVz5HhkUU3IULNrepscG",
-      "title": "ini tgl 5",
-      "date": "05-10-2023",
-      "writer": "Hengker",
-      "content": "<p>Contoh dah</p><p><img src=\"https://ik.imagekit.io/hekerhumoris/brand_fragrances.jpg?updatedAt=1697560073754\" style=\"width: 70%; margin: 5px 0px 20px 0px;\"><br></p><blockquote><p>cakep dahhh</p></blockquote>"
-    },
-    {
-      "slug": "n7bvTEt6kcDWVC1YNJ0oBeH5YYlEmx7h9qF9B8o4ZeLgoIxHy2",
-      "title": "baru lagi nih 2025",
-      "date": "10-06-2025",
-      "writer": "HH",
-      "content": "<p>Cakepp pokoknya</p><p><img src=\"https://ik.imagekit.io/hekerhumoris/licensed-image.jpeg?updatedAt=1697566376792\" style=\"width: 70%; margin: 5px 0px 20px 0px;\"><br></p>"
+      "slug": "sLKWVpKfsj6JWTQFwhpuYvTuYlthodtk9lALgJQT98VtWNOchh",
+      "title": "Sensitive Data Exposure - Number Phone in API Response",
+      "date": "22-10-2021",
+      "writer": "HekerHumoris",
+      "content": "<p><strong>Chouw hunters!</strong></p><p>I founded a vulnerability <strong>sensitive data exposure </strong>in API response at one of my city goverments websites. Sensitive data includes :</p><ol><li>Number Phone</li><li>Personal Email</li><li>Position</li><li>Many more..</li></ol><p><br data-cke-filler=\"true\"></p><p>Why the data is sensitive? Because this website used by Government officials. Step to Reproduce :</p><ol><li>Go to <a href=\"masking.karawangkab.go.id\">masking.karawangkab.go.id</a></li><li>Go to register page</li><li>Fill NIP field (You can search public NIP in Google)</li><li>Turn on intercept burpsuite</li><li>Submit form</li><li>Get the response and you will see sensitive data!</li></ol><p><img src=\"https://ik.imagekit.io/hekerhumoris/Sensitive%20Data%20Exposure%20-%20Number%20Phone%20in%20API%20Response/noname.png?updatedAt=1697613154867\" style=\"width: 70%; margin: 5px 0px 20px 0px;\"><br></p><p><br data-cke-filler=\"true\"></p><p>Timeline :</p><p>22-10-2021 Report</p><p>26-10-2021 Response from Diskominfo Karawang</p><p>26-10-2021 Got Reward!</p><p><img src=\"https://ik.imagekit.io/hekerhumoris/Sensitive%20Data%20Exposure%20-%20Number%20Phone%20in%20API%20Response/karawang.png?updatedAt=1697612746308\" style=\"width: 70%; margin: 5px 0px 20px 0px;\"><br></p>"
     }
   ]
 }
