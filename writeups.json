@@ -9,12 +9,12 @@
       "reward": "fa-award"
     },
     {
-      "slug": "fqiZAZSwd5Jc3wyUIGu6jdtDKFHu5h1EZuEvT9ud8mvLIEcq5R",
-      "title": "Phishing Through HTML Injection - DICODING",
+      "slug": "WaquEj37g5hsXdwQwI1dOx6adYh7oT0wySmxMgaWheAdLIe5z0",
+      "title": "($317.67) Phishing Through HTML Injection - DICODING",
       "date": "23-07-2022",
       "writer": "HekerHumoris",
       "content": "\n                <p style=\"text-align: center; font-weight: bold;\">I'm sorry.. This writeup is bound by Non-Disclosure Agreement!</p>\n                <div class=\"nda-content\" style=\"display: flex; justify-content: center;\">\n                  <img src=\"https://cdn.dribbble.com/users/1191447/screenshots/3829052/error_shot.gif\" style=\"width: 50%;\">\n                </div>\n              <p>Timeline :</p><p>23-07-2022 Report</p><p>09-08-2022 Reward Decision</p><p><img src=\"https://ik.imagekit.io/hekerhumoris/Dicoding/email%20dicoding.png?updatedAt=1697621734845\" class=\"img-poc\" style=\"margin: 5px 0px 20px 0px; width: 80%;\"><br></p><p><img src=\"https://ik.imagekit.io/hekerhumoris/Dicoding/noname.png?updatedAt=1697621562270\" class=\"img-poc\" style=\"margin: 5px 0px 20px 0px; width: 50%;\"><br></p>",
-      "reward": "fa-dollar-sign"
+      "reward": "fa-"
     }
   ]
 }
