@@ -10,6 +10,9 @@
         border-right: 2px solid #000;
         margin-right: 0px !important;
     }
+    .nda-gif{
+        width: 100% !important;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -24,11 +27,19 @@
         border-right: 2px solid #000;
         margin-right: 0px !important;
     }
+    .nda-gif{
+        width: 100% !important;
+    }
+    
 }
 
-/* .img-poc{
+.img-poc{
     width: 70%;
-} */
+}
+
+.nda-gif{
+    width: 50%;
+}
 
 .icon-reward{
     padding-right: 20px;
