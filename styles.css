@@ -1,4 +1,8 @@
 @media screen and (min-width: 768px) and (max-width: 1023px) {
+    .video-poc{
+        width: 100% !important;
+    }
+
     .img-poc{
         width: 100% !important;
     }
@@ -16,6 +20,10 @@
 }
 
 @media screen and (max-width: 767px) {
+    .video-poc{
+        width: 100% !important;
+    }
+
     .img-poc{
         width: 100% !important;
     }
@@ -31,6 +39,12 @@
         width: 100% !important;
     }
     
+}
+
+.video-poc{
+    width: 50%;
+    border-radius: 5px;
+    margin-top: 10px;
 }
 
 .img-poc{

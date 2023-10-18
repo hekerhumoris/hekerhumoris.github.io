@@ -104,7 +104,10 @@
                   href="https://id.linkedin.com/in/rona-febriana"
                   target="_blank"
                   class="medsos btn"
-                  >Linkedin</a
+                  >LinkedIn</a
+                >
+                <a href="/add.html" class="medsos btn add-writeup"
+                  >Add Writeup</a
                 >
               </div>
             </div>
@@ -113,7 +116,7 @@
               style="opacity: 0; padding: 0 10px"
               class="sub-text"
             >
-              Hey Bug Hunters! Nice to e-Meet You. Happy Reading...
+              Hey Hunters! Nice to e-Meet You. Happy Reading...
             </div>
           </div>
           <div
@@ -135,6 +138,12 @@
     ></script>
     <script>
       $(document).ready(function () {
+        let currentHost = window.location.host;
+        if (currentHost === "hekerhumoris.github.io") {
+          $(".add-writeup").remove();
+        } else {
+          $(".add-writeup").show();
+        }
         let currentYear = new Date().getFullYear();
         document.getElementById("Copyright").textContent =
           "All Copyright by Rona - " + currentYear;
@@ -147,7 +156,6 @@
           jsonData.sort(function (a, b) {
             return parseDate(b.date) - parseDate(a.date);
           });
-          console.log(jsonData);
           jsonData.forEach(function (writeup) {
             $(".list-writeup").append(`
               <a href="/detail.html?id=${writeup.slug}" class="div-block btn">
