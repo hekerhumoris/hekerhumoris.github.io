@@ -9,6 +9,10 @@
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link
       href="https://assets-global.website-files.com/652e0acc713291bc3d4ea866/css/miniblog.webflow.0da0d0482.css"
       rel="stylesheet"
       type="text/css"
@@ -148,6 +152,11 @@
             $(".list-writeup").append(`
               <a href="/detail.html?id=${writeup.slug}" class="div-block btn">
                 <p class="paragraph">
+                  <span class="colum-reward">
+                    <i
+                      class="fa-solid ${writeup.reward} fa-lg icon-reward"
+                    ></i
+                  ></span>
                   ${writeup.title}
                 </p>
               </a>

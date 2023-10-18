@@ -12,6 +12,10 @@
       rel="stylesheet"
       type="text/css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
     <script
       src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"
       type="text/javascript"
@@ -81,7 +85,11 @@
               style="opacity: 0"
               class="sub-text"
             >
-              <span id="date"></span> by <span id="writer"></span>
+              <span id="date"></span> by <span id="writer"></span><br />
+              <span>
+                Reward :
+                <i id="reward-writeup"></i
+              ></span>
             </div>
           </div>
           <div
@@ -148,6 +156,10 @@
             $("#date").html(selectedWriteup.date);
             $("#writer").html(selectedWriteup.writer);
             $("#content").html(selectedWriteup.content);
+            $("#reward-writeup").attr(
+              "class",
+              "fa-solid fa-lg " + selectedWriteup.reward
+            );
             $("#next").html(nextWriteup.title);
             $("#next").attr("href", "/detail.html?id=" + nextWriteup.slug);
           } else {
