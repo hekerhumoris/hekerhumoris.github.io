@@ -99,6 +99,27 @@
             class="text-area-wrapper"
           >
             <div class="div-block">
+              <div class="nda-alert">
+                <p
+                  style="
+                    text-align: center;
+                    font-weight: bold;
+                    margin-top: 20px;
+                  "
+                >
+                  I'm sorry.. This writeup is bound by <br />
+                  Non-Disclosure Agreement!
+                </p>
+                <div
+                  class="nda-content"
+                  style="display: flex; justify-content: center"
+                >
+                  <img
+                    src="https://cdn.dribbble.com/users/1191447/screenshots/3829052/error_shot.gif"
+                    class="nda-gif"
+                  />
+                </div>
+              </div>
               <div class="paragraph" id="content"></div>
             </div>
             <div
@@ -157,6 +178,11 @@
             $("#date").html(selectedWriteup.date);
             $("#writer").html(selectedWriteup.writer);
             $("#content").html(selectedWriteup.content);
+            if (selectedWriteup.nda === false) {
+              $(".nda-alert").remove();
+            } else {
+              $(".nda-alert").show();
+            }
             $("#reward-writeup").attr(
               "class",
               "fa-solid fa-lg " + selectedWriteup.reward

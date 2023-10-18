@@ -6,15 +6,17 @@
       "date": "22-10-2021",
       "writer": "HekerHumoris",
       "content": "<p><strong>Chouw hunters!</strong></p><p>I founded a vulnerability <strong>sensitive data exposure </strong>in API response at one of my city goverments websites. Sensitive data includes :</p><ol><li>Number Phone</li><li>Personal Email</li><li>Position</li><li>Many more..</li></ol><p><br data-cke-filler=\"true\"></p><p>Why the data is sensitive? Because this website used by Government officials. Step to Reproduce :</p><ol><li>Go to <a href=\"masking.karawangkab.go.id\">masking.karawangkab.go.id</a></li><li>Go to register page</li><li>Fill NIP field (You can search public NIP in Google)</li><li>Turn on intercept burpsuite</li><li>Submit form</li><li>Get the response and you will see sensitive data!</li></ol><p><img src=\"https://ik.imagekit.io/hekerhumoris/Sensitive%20Data%20Exposure%20-%20Number%20Phone%20in%20API%20Response/noname.png?updatedAt=1697613154867\" class=\"img-poc\" style=\"margin: 5px 0px 20px 0px;\"><br></p><p><br data-cke-filler=\"true\"></p><p>Timeline :</p><p>22-10-2021 Report</p><p>26-10-2021 Response from Diskominfo Karawang</p><p>26-10-2021 Got Reward!</p><p><img src=\"https://ik.imagekit.io/hekerhumoris/Sensitive%20Data%20Exposure%20-%20Number%20Phone%20in%20API%20Response/karawang.png?updatedAt=1697612746308\" class=\"img-poc\" style=\"margin: 5px 0px 20px 0px;\"><br></p>",
-      "reward": "fa-award"
+      "reward": "fa-award",
+      "nda": false
     },
     {
       "slug": "WaquEj37g5hsXdwQwI1dOx6adYh7oT0wySmxMgaWheAdLIe5z0",
       "title": "($317.67) Phishing Through HTML Injection - DICODING",
       "date": "23-07-2022",
       "writer": "HekerHumoris",
-      "content": "\n                <p style=\"text-align: center; font-weight: bold;\">I'm sorry.. This writeup is bound by <br> Non-Disclosure Agreement!</p>\n                <div class=\"nda-content\" style=\"display: flex; justify-content: center;\">\n                  <img src=\"https://cdn.dribbble.com/users/1191447/screenshots/3829052/error_shot.gif\" class=\"nda-gif\">\n                </div>\n              <p>Timeline :</p><p>23-07-2022 Report</p><p>09-08-2022 Reward Decision</p><p><img src=\"https://ik.imagekit.io/hekerhumoris/Dicoding/email%20dicoding.png?updatedAt=1697621734845\" class=\"img-poc\" style=\"margin: 5px 0px 20px 0px; width: 80%;\"><br></p><p><img src=\"https://ik.imagekit.io/hekerhumoris/Dicoding/noname.png?updatedAt=1697621562270\" class=\"img-poc\" style=\"margin: 5px 0px 20px 0px; width: 50%;\"><br></p>",
-      "reward": "fa-dollar-sign"
+      "content": "<p>Timeline :</p><p>23-07-2022 Report</p><p>09-08-2022 Reward Decision</p><p><img src=\"https://ik.imagekit.io/hekerhumoris/Dicoding/email%20dicoding.png?updatedAt=1697621734845\" class=\"img-poc\" style=\"margin: 5px 0px 20px 0px; width: 80%;\"><br></p><p><img src=\"https://ik.imagekit.io/hekerhumoris/Dicoding/noname.png?updatedAt=1697621562270\" class=\"img-poc\" style=\"margin: 5px 0px 20px 0px; width: 50%;\"><br></p>",
+      "reward": "fa-dollar-sign",
+      "nda": true
     },
     {
       "slug": "hc9f2y3WfEd7QO7UOqnsUg3v7ML4tCd98vHKYCUN5UlafCyyk7",
@@ -22,7 +24,17 @@
       "date": "22-07-2022",
       "writer": "HekerHumoris",
       "content": "<p><strong>Chouw Hunters!</strong></p><p>I found XSS and HTML Injection at BWA website. This vulnerability can <strong>Stealing Cookie </strong>and <strong>Deface Page</strong>. I dont know why this vulnerability still execution although his website using Laravel framework (should had done filtering XSS and HTML injection).</p><p><br data-cke-filler=\"true\"></p><p>Gooow to PoC :</p><ol><li>Go to <strong>karya </strong>page</li><li>Add new <strong>Karya</strong></li><li>Inject payload at Description field</li><li>Upload <strong>Karya</strong></li><li>Go to target page</li><li><strong>Payload Executed!</strong></li></ol><p>\n              <b>PoC Video : </b><br>  \n              <video class=\"video-poc\" controls=\"\">\n                  <source src=\"https://ik.imagekit.io/hekerhumoris/BWA/POC%20-%20XSS%20in%20BWA.mp4?updatedAt=1697636457757\" type=\"video/mp4\">\n                  Maaf, peramban Anda tidak mendukung pemutaran video.\n                </video><br>\n              </p><p><br data-cke-filler=\"true\"></p><p>Timeline :</p><p>22-07-2022 Report</p><p>26-07-2022 Got the Reward \ud83d\udcb8 (Free 3 Premium Class and Certificate)</p><p><img src=\"https://ik.imagekit.io/hekerhumoris/BWA/IMG_7160.jpeg?updatedAt=1697637940514\" class=\"img-poc\" style=\"margin: 5px 0px 20px 0px; width: 40%;\"><br></p><p><img src=\"https://ik.imagekit.io/hekerhumoris/BWA/bwa.png?updatedAt=1697636539868\" class=\"img-poc\" style=\"margin: 5px 0px 20px 0px; width: 50%;\"><br></p>",
-      "reward": "fa-dollar-sign"
+      "reward": "fa-dollar-sign",
+      "nda": false
+    },
+    {
+      "slug": "pjtif4YoVjhyLuQHfjT6ZgDWP1xSCcGeMpOVFGdHxXtfnI2vGI",
+      "title": "Sensitive Data Exposure - Subdomain Polri",
+      "date": "18-03-2023",
+      "writer": "HekerHumoris",
+      "content": "<p>Sensitive Data Includes :</p><ol><li>Ijazah anggota Polri</li><li>Daftar anggota satres narkoba</li><li>Daftar satuan binmas</li><li>Data Ranmor 2019</li><li>Many more..</li></ol><p><br data-cke-filler=\"true\"></p><p>Timeline :</p><p>18-03-2023 Report</p><p>17-04-2023 Rewarded!</p><p><img src=\"https://ik.imagekit.io/hekerhumoris/Polri/vvip-bssn.png?updatedAt=1697641021237\" class=\"img-poc\" style=\"margin: 5px 0px 20px 0px; width: 60%;\"><br></p>",
+      "reward": "fa-award",
+      "nda": true
     }
   ]
 }
