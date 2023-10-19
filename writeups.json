@@ -50,7 +50,7 @@
       "title": "Make Invisible Character & Unlimited Name - Gather Town",
       "date": "10-09-2021",
       "writer": "HekerHumoris",
-      "content": "<p><strong>Chouw Hunters!</strong></p><p>Are you used Gather Town for online communication? You must try it! very exciting and fun.&nbsp;</p><p>I found low vulnerability to make your character invisible and unlimited name. But i can't explain how to reproduce, cuz i haven't done yet response from their.</p><p><br data-cke-filler=\"true\"></p><p>Unlimited Name :</p><p><img src=\"https://ik.imagekit.io/hekerhumoris/Gather%20Town/unlimited%20character.jpg?updatedAt=1697708943068\" class=\"img-poc\" style=\"margin: 5px 0px 20px 0px; width: 50%;\"><br></p><p>Invisible Character :</p><p><img src=\"https://ik.imagekit.io/hekerhumoris/Gather%20Town/invisible%20avatar.jpg?updatedAt=1697708942946\" class=\"img-poc\" style=\"margin: 5px 0px 20px 0px; width: 50%;\"><br></p><p><br data-cke-filler=\"true\"></p><p>Timeline :</p><p>10-09-2021 Report</p><p>????? \ud83e\udd37\ud83c\udffb\u200d\u2642\ufe0f</p>",
+      "content": "<p><strong>Chouw Hunters!</strong></p><p>Are you used Gather Town for online communication? You must try it! very exciting and fun.&nbsp;</p><p>I found low vulnerability to make your character invisible and unlimited name. But i can't explain how to reproduce, cuz i haven't done yet response from them.</p><p><br data-cke-filler=\"true\"></p><p>Unlimited Name :</p><p><img src=\"https://ik.imagekit.io/hekerhumoris/Gather%20Town/unlimited%20character.jpg?updatedAt=1697708943068\" class=\"img-poc\" style=\"margin: 5px 0px 20px 0px; width: 50%;\"><br></p><p>Invisible Character :</p><p><img src=\"https://ik.imagekit.io/hekerhumoris/Gather%20Town/invisible%20avatar.jpg?updatedAt=1697708942946\" class=\"img-poc\" style=\"margin: 5px 0px 20px 0px; width: 50%;\"><br></p><p><br data-cke-filler=\"true\"></p><p>Timeline :</p><p>10-09-2021 Report</p><p>????? \ud83e\udd37\ud83c\udffb\u200d\u2642\ufe0f</p>",
       "reward": "fa-question",
       "nda": false
     },
@@ -59,8 +59,17 @@
       "title": "Manipulate Score Quiz to 9999999 - quizizz.com",
       "date": "06-10-2021",
       "writer": "HekerHumoris",
-      "content": "<p><strong>Chow Hunters!</strong></p><p>Do you know platform online quiz? or you must have ever used it? I found vulnerability for manipulate your score to 99999 \ud83d\ude06. But i can't explain how to reproduce, cuz i haven't done yet response from their \ud83e\udd72</p><p><br data-cke-filler=\"true\"></p><p>PoC :</p><p><img src=\"https://ik.imagekit.io/hekerhumoris/Quizizz/quiz.jpeg?updatedAt=1697710095570\" class=\"img-poc\" style=\"margin: 5px 0px 20px 0px; width: 60%;\"><br></p><p><br data-cke-filler=\"true\"></p><p>Timeline :</p><p>06-10-2021 Reported</p><p>??????????</p>",
+      "content": "<p><strong>Chow Hunters!</strong></p><p>Do you know platform online quiz? or you must have ever used it? I found vulnerability for manipulate your score to 99999 \ud83d\ude06. But i can't explain how to reproduce, cuz i haven't done yet response from them \ud83e\udd72</p><p><br data-cke-filler=\"true\"></p><p>PoC :</p><p><img src=\"https://ik.imagekit.io/hekerhumoris/Quizizz/quiz.jpeg?updatedAt=1697710095570\" class=\"img-poc\" style=\"margin: 5px 0px 20px 0px; width: 60%;\"><br></p><p><br data-cke-filler=\"true\"></p><p>Timeline :</p><p>06-10-2021 Reported</p><p>??????????</p>",
       "reward": "fa-question",
+      "nda": false
+    },
+    {
+      "slug": "7nJ3uCRievGJXf9RBkfBDSPBTeUTjGR5bMmV6DzrSEQ2ZvXuY5",
+      "title": "(Duplicate) Unexpired Token After Logout - vidio.com",
+      "date": "24-09-2022",
+      "writer": "HekerHumoris",
+      "content": "<p><strong>Chouw Hunters!</strong></p><p>I found common vulnerability at <a href=\"https://vidio.com\">vidio.com</a>, but unfortunately duplicate \ud83e\udd72. But i still got the reward (Platinum Package 3 Month). Lets goww to PoC..</p><p><br data-cke-filler=\"true\"></p><p>\n              <b>PoC Video : </b><br>  \n              <video class=\"video-poc\" controls=\"\">\n                  <source src=\"https://ik.imagekit.io/hekerhumoris/vidio/POC%20-%20vidio_dot_com.mp4?updatedAt=1697720229596\" type=\"video/mp4\">\n                  Maaf, peramban Anda tidak mendukung pemutaran video.\n                </video><br>\n              </p><p><br data-cke-filler=\"true\"></p><p>Timeline :</p><p>24-09-2022 Reported</p><p>26-09-2022 Rewarded! \ud83d\udcb8</p><p><img src=\"https://ik.imagekit.io/hekerhumoris/vidio/vidio-2.png?updatedAt=1697720224339\" class=\"img-poc\" style=\"margin: 5px 0px 20px 0px; width: 70%;\"><br></p>",
+      "reward": "fa-dollar-sign",
       "nda": false
     }
   ]
