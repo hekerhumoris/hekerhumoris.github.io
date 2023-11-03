@@ -104,7 +104,6 @@
 
 .paragraph.home{
     padding: 3% 7% !important;
-    text-align: center;
 }
 
 .paragraph{
@@ -126,6 +125,10 @@
 
 .icon-athome{
     margin-right: 5px;
+}
+
+.section-2{
+    margin-top: 30px !important;
 }
 
 .text-area-wrapper.home{
