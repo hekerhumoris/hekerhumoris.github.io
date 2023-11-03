@@ -120,8 +120,10 @@
     <audio id="file1" src="https://ik.imagekit.io/hekerhumoris/bs.mp3"></audio>
     <script>
       $(document).ready(function () {
-        var selAudio1 = $("#file1")[0];
-        selAudio1.play();
+        setTimeout(() => {
+          var selAudio1 = $("#file1")[0];
+          selAudio1.play();
+        }, 2000);
         $("#body").addClass("show");
         $("#startGame").on("click", function () {
           $(".mainMenu").fadeOut(3000);
