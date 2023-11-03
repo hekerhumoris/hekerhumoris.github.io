@@ -24,13 +24,13 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body id="body" class="fade-in">
-    <audio autoplay loop>
+    <!-- <audio autoplay loop>
       <source
         src="https://ik.imagekit.io/hekerhumoris/bs.mp3"
         type="audio/mpeg"
       />
       Your browser does not support the audio element.
-    </audio>
+    </audio> -->
     <div class="mainMenu">
       <div class="container d-flex justify-content-between align-items-center">
         <div class="col-12 col-lg-4">
@@ -117,8 +117,11 @@
       id="file"
       src="https://ik.imagekit.io/hekerhumoris/Scary%20Jumpscare%20-%20Sound%20Effect%20(DONT%20WATCH%20IN%20THE%20DARK).mp3"
     ></audio>
+    <audio id="file1" src="https://ik.imagekit.io/hekerhumoris/bs.mp3"></audio>
     <script>
       $(document).ready(function () {
+        var selAudio1 = $("#file1")[0];
+        selAudio1.play();
         $("#body").addClass("show");
         $("#startGame").on("click", function () {
           $(".mainMenu").fadeOut(3000);
