@@ -156,10 +156,7 @@
 
         var input1 = $("#fake");
         input1.on("keyup", function (e) {
-          if (
-            (e.key === "z" && input1.val().charAt(0) === "z") ||
-            (e.key === "Z" && input1.val().charAt(0) === "Z")
-          ) {
+          if (e.key === "." && input1.val().charAt(0) === ".") {
             $("#fake").val("");
             $("#answer").focus();
           } else if (e.keyCode === 13 && input1.val().charAt(0) === "") {
