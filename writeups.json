@@ -71,6 +71,15 @@
       "content": "<p><strong>Chouw Hunters!</strong></p><p>I found common vulnerability at <a href=\"https://vidio.com\">vidio.com</a>, but unfortunately duplicate \ud83e\udd72. But i still got the reward (Platinum Package 3 Month). Lets goww to PoC..</p><p><br data-cke-filler=\"true\"></p><p>\n              <b>PoC Video : </b><br>  \n              <video class=\"video-poc\" controls=\"\">\n                  <source src=\"https://ik.imagekit.io/hekerhumoris/vidio/POC%20-%20vidio_dot_com.mp4?updatedAt=1697720229596\" type=\"video/mp4\">\n                  Maaf, peramban Anda tidak mendukung pemutaran video.\n                </video><br>\n              </p><p><br data-cke-filler=\"true\"></p><p>Timeline :</p><p>24-09-2022 Reported</p><p>26-09-2022 Rewarded! \ud83d\udcb8</p><p><img src=\"https://ik.imagekit.io/hekerhumoris/vidio/vidio-2.png?updatedAt=1697720224339\" class=\"img-poc\" style=\"margin: 5px 0px 20px 0px; width: 70%;\"><br></p>",
       "reward": "fa-dollar-sign",
       "nda": false
+    },
+    {
+      "slug": "ZHoC5GtKB18t008ISfxj0RwKXhpFuPiMGJ5zbQ46AuLQEyjZPz",
+      "title": "ACL Propagation Delay - Logic Flaw at Google",
+      "date": "17-09-2023",
+      "writer": "HekerHumoris",
+      "content": "<p><strong>Chouw Hunters!</strong></p><p>I founded a vulnerability at <strong>Google.</strong> This vulnerability is accepted (valid) but not severe enough for got a reward \u2639\ufe0f. No worries, still hunting!</p><p><br data-cke-filler=\"true\"></p><h4><strong>Detail Vulnerability</strong></h4><p>This vulnerability is \"ACL Propagation Delay\". When you change Access other user from <strong>Editor to Viewer, </strong>it's not occurs as realtime process. Therefore, other user still can change their access.</p><p>I think for product like google docs, google jamboard, and other product that have mechanism <strong>can editing the content together with other user</strong>, Realtime for Update Access is very important.</p><p><br data-cke-filler=\"true\"></p><p>\n              <b>PoC Video : </b><br>  \n              <iframe class=\"video-poc\" src=\"https://www.youtube-nocookie.com/embed/HrhWy4HW9_U\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen=\"\"></iframe>  \n              <br>\n              </p><p><br data-cke-filler=\"true\"></p><p>Timeline :</p><p>17-09-2023 Reported</p><p>19-09-2023 Triaged \u26a0\ufe0f</p><p>21-09-2023 Accepted \u2705</p><p>29-09-2023 Not Severe Enough \ud83d\ude41</p><p><img src=\"https://ik.imagekit.io/hekerhumoris/Screenshot%202023-11-21%20at%2014.58.49.png?updatedAt=1700553564429\" class=\"img-poc\" style=\"margin: 5px 0px 20px 0px; width: 50%;\"><br></p>",
+      "reward": "fa-question",
+      "nda": false
     }
   ]
 }

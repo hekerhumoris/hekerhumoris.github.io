@@ -43,6 +43,7 @@
 
 .video-poc{
     width: 50%;
+    height: 300px;
     border-radius: 5px;
     margin-top: 10px;
 }
@@ -130,4 +131,43 @@
 
 .text-area-wrapper.home{
     max-width: 65% !important;
+}
+
+.img-rewarded{
+    width: 70px;
+    background-size: cover;
+    margin: 0 20px;
+    filter: grayscale(100%);
+    transition: all 0.3s;
+}
+.img-rewarded:hover{
+    filter: grayscale(0%);
+}
+
+small{
+    font-size: 12px;
+    color: rgb(15 15 15 / 60%);
+}
+
+.line-small{
+    padding-top: 12px !important;
+}
+
+.medsos i {
+    color: #000;
+    margin: 0 20px;
+    transition: all 0.3s;
+}
+.medsos i:hover {
+    color: green;
+}
+
+.talks{
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    transition: all 0.2s;
+}
+.talks:hover{
+    color: green;
 }
